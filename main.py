@@ -29,6 +29,10 @@ def selfgrade():
 def navbarrotation():
     return render_template("navbarrotation.html", projects=projects.setup())
 
+@app.route('/test')
+def test():
+    return render_template("test.html")
+
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.run(debug=True, port='3000', host='127.0.0.1')
