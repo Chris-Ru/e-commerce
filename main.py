@@ -34,7 +34,7 @@ def test():
     return render_template("test.html")
 
 if __name__ == "__main__":
-    #runs the application on the repl development server
-    app.run(debug=True, port='3000', host='127.0.0.1')
+    # runs the application on the repl development server
+    app.run(debug=True)
 
 
