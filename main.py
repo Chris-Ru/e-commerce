@@ -17,8 +17,8 @@ def home():
 def amazon():
     return render_template("amazon.html", projects=projects.setup())
 
-@app.route('/template1')
-def template1.html():
+@app.route('/Template1/')
+def Template1():
     return render_template("Template1.html", projects=projects.setup())
 
 @app.route('/selfgrade/')
@@ -29,12 +29,10 @@ def selfgrade():
 def navbarrotation():
     return render_template("navbarrotation.html", projects=projects.setup())
 
-@app.route('/test')
+@app.route('/test/')
 def test():
     return render_template("test.html")
 
 if __name__ == "__main__":
     # runs the application on the repl development server
     app.run(debug=True)
-
-
