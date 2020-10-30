@@ -18,8 +18,8 @@ def amazon():
     return render_template("amazon.html", projects=projects.setup())
 
 @app.route('/template1')
-def testing():
-    return render_template("template1.html", projects=projects.setup())
+def template1.html():
+    return render_template("Template1.html", projects=projects.setup())
 
 @app.route('/selfgrade/')
 def selfgrade():
